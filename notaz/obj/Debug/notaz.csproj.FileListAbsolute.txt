@@ -1,0 +1,10 @@
+C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.csprojResolveAssemblyReference.cache
+C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.Form1.resources
+C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.Properties.Resources.resources
+C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.csproj.GenerateResource.Cache
+C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.csproj.CoreCompileInputs.cache
+C:\Users\ron\source\repos\notaz\notaz\bin\Debug\notaz.exe.config
+C:\Users\ron\source\repos\notaz\notaz\bin\Debug\notaz.exe
+C:\Users\ron\source\repos\notaz\notaz\bin\Debug\notaz.pdb
+C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.exe
+C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.pdb
