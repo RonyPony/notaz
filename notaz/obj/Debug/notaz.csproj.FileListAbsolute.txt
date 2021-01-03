@@ -8,3 +8,13 @@ C:\Users\ron\source\repos\notaz\notaz\bin\Debug\notaz.exe
 C:\Users\ron\source\repos\notaz\notaz\bin\Debug\notaz.pdb
 C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.exe
 C:\Users\ron\source\repos\notaz\notaz\obj\Debug\notaz.pdb
+D:\personal projects\notaz\notaz\bin\Debug\notaz.exe.config
+D:\personal projects\notaz\notaz\bin\Debug\notaz.exe
+D:\personal projects\notaz\notaz\bin\Debug\notaz.pdb
+D:\personal projects\notaz\notaz\obj\Debug\notaz.csprojAssemblyReference.cache
+D:\personal projects\notaz\notaz\obj\Debug\notaz.Form1.resources
+D:\personal projects\notaz\notaz\obj\Debug\notaz.Properties.Resources.resources
+D:\personal projects\notaz\notaz\obj\Debug\notaz.csproj.GenerateResource.cache
+D:\personal projects\notaz\notaz\obj\Debug\notaz.csproj.CoreCompileInputs.cache
+D:\personal projects\notaz\notaz\obj\Debug\notaz.exe
+D:\personal projects\notaz\notaz\obj\Debug\notaz.pdb

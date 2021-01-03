@@ -19,7 +19,7 @@ namespace notaz
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            button2.PerformClick();
         }
 
         private void cargar()
@@ -40,42 +40,19 @@ namespace notaz
 
         private void agregar(string titulo, string texto, string fecha)
         {
-            Form newMDIChild = new Form();
-            Label tit = new Label();
-            Label fec = new Label();
-            TextBox txt = new TextBox();
-            Button btn = new Button();
-            Point txtLoc = new Point(0, 25);
-            Point fecLoc = new Point(0, 130);
-            Point btnLoc = new Point(0, 180);
-
-            newMDIChild.FormBorderStyle = FormBorderStyle.None;
-            tit.Text = titulo;
-            fec.Text = fecha;
-            fec.Location = fecLoc;
-            txt.Text = texto;
-            txt.Width = 200;
-            txt.Multiline = true;
-            txt.Height = 100;
-            txt.BorderStyle = BorderStyle.None;
-            txt.ReadOnly = true;
-            btn.Text = "Abrir Nota";
-            btn.Location = btnLoc;
-            txt.Location = txtLoc;
-            newMDIChild.Controls.Add(tit);
-            newMDIChild.Controls.Add(txt);
-            newMDIChild.Controls.Add(fec);
-            newMDIChild.Controls.Add(btn);
-            newMDIChild.TopMost = true;
-            // Set the parent form of the child window.  
-            newMDIChild.MdiParent = this;
-            // Display the new form.  
-            newMDIChild.Show();
+            dataGridView1.Rows.Add(titulo,texto,fecha);
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             cargar();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            formManager ff = new formManager();
+            ff.createForm();
         }
     }
 }
