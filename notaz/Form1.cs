@@ -51,8 +51,10 @@ namespace notaz
 
         private void button2_Click(object sender, EventArgs e)
         {
-            formManager ff = new formManager();
-            ff.createForm();
+            //formManager ff = new formManager();
+            nota ff = new nota();
+            //ff.createForm();
+            ff.Show();
         }
     }
 }

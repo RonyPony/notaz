@@ -69,9 +69,9 @@ namespace notaz
         {
             MessageBox.Show("fijadoz");
         }
-        private void klose()
+        private void klose(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Test");
         }
     }
 }

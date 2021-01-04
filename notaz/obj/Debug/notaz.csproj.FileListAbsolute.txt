@@ -18,3 +18,4 @@ D:\personal projects\notaz\notaz\obj\Debug\notaz.csproj.GenerateResource.cache
 D:\personal projects\notaz\notaz\obj\Debug\notaz.csproj.CoreCompileInputs.cache
 D:\personal projects\notaz\notaz\obj\Debug\notaz.exe
 D:\personal projects\notaz\notaz\obj\Debug\notaz.pdb
+D:\personal projects\notaz\notaz\obj\Debug\notaz.nota.resources
