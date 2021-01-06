@@ -59,15 +59,12 @@ namespace notaz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cargar();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //formManager ff = new formManager();
-            nota ff = new nota(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
-            //ff.createForm();
-            ff.Show();
+            
         }
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
@@ -78,8 +75,7 @@ namespace notaz
 
         private void button4_Click(object sender, EventArgs e)
         {
-            nota nn = new nota(con.getCount("notas",string.Empty).ToString()) ;
-            nn.Show();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -96,6 +92,41 @@ namespace notaz
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            nota nn = new nota(con.getCount("notas", string.Empty).ToString());
+            nn.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            //formManager ff = new formManager();
+            nota ff = new nota(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+            //ff.createForm();
+            ff.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            cargar();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.ShowInTaskbar = false;
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
