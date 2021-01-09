@@ -127,6 +127,9 @@ namespace notaz
         {
             this.ShowInTaskbar = false;
             this.WindowState = FormWindowState.Minimized;
+            NotifyIcon trayIcon = new NotifyIcon();
+            //trayIcon.Icon = new Icon(@"C:\iconfilename.ico");
+            trayIcon.Visible = true;
         }
     }
 }

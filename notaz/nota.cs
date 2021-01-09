@@ -125,6 +125,11 @@ namespace notaz
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            ParentForm.Show();
+        }
+
         private void nota_Load(object sender, EventArgs e)
         {
             cargarNota();
